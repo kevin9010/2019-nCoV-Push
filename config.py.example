@@ -23,7 +23,8 @@ WeiboSCFUrl = None
 
 # 使用 github action 时需要使用 redis 记录上次抓取的信息 id
 # 不使用 action 设置为 None 即可
-Redis = os.environ['RedisUrl']
+# Redis = os.environ['RedisUrl']
+Redis = None
 
 # 微信 Server酱 push，获取 Token 参考：http://sc.ftqq.com/3.version
 # 不启用修改为 None
