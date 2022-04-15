@@ -10,6 +10,7 @@ TelegramMirror = None
 # 不启用修改为 None
 PushToken = os.environ['DingTalkToken']
 PushKeyWord = os.environ['DingTalkWord']
+pushSecret = os.environ['DingTalkSecret']
 
 # 如需启用，需要手动抓包获取 Token，不启用保持默认
 WeiboRef = None
